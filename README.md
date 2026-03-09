@@ -5,8 +5,7 @@ A sleek, premium, and professional portfolio website showcasing my skills, proje
 <br>
 
 ## 🚀 Live Demo
-<!-- TODO: Add Vercel Live Demo Link Here Below -->
-**[Live Demo Link (Pending)](#)**
+**[ajb-portfolio.vercel.app](https://ajb-portfolio.vercel.app)**
 
 ---
 
@@ -21,7 +20,7 @@ A sleek, premium, and professional portfolio website showcasing my skills, proje
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: Context-aware Vanilla CSS with custom properties and layout classes.
 - **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
-- **Deployment**: [Vercel](https://vercel.com/) (Planned)
+- **Deployment**: [Vercel](https://ajb-portfolio.vercel.app/)
 
 ## 💻 Running Locally
 
