@@ -153,6 +153,12 @@ h1, h2, h3, h4, h5, h6 {
 .gap-8 { gap: 2rem; }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+  .section {
+    padding: 3.5rem 0;
+  }
   .grid-cols-2, .grid-cols-3 {
     grid-template-columns: 1fr;
   }
