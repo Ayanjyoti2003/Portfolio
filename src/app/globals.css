@@ -153,8 +153,11 @@ h1, h2, h3, h4, h5, h6 {
 .gap-8 { gap: 2rem; }
 
 @media (max-width: 768px) {
+  html, body {
+    padding: 0 0.2cm;
+  }
   .container {
-    padding: 0 1.25rem;
+    padding: 0 0.5rem;
   }
   .section {
     padding: 3.5rem 0;
