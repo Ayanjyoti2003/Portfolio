@@ -24,7 +24,12 @@ export const metadata: Metadata = {
   title: "Ayan Jyoti Bora - Full Stack & Mobile Developer",
   description: "Portfolio of Ayan Jyoti Bora, Full-Stack & Mobile Application Developer specializing in React, Next.js, and React Native.",
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
 };
 
