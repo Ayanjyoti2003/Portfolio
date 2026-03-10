@@ -23,6 +23,9 @@ const firaCode = Fira_Code({
 export const metadata: Metadata = {
   title: "Ayan Jyoti Bora - Full Stack & Mobile Developer",
   description: "Portfolio of Ayan Jyoti Bora, Full-Stack & Mobile Application Developer specializing in React, Next.js, and React Native.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
