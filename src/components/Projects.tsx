@@ -14,7 +14,8 @@ export default function Projects() {
       description: "Built a full-stack e-commerce application featuring secure user authentication, product filtering, cart management, and checkout workflow. Deployed on Vercel with SEO-friendly routing.",
       technologies: ["Next.js", "TypeScript", "MongoDB", "Firebase Auth", "Tailwind CSS"],
       liveDemoLink: "https://minishop1.vercel.app/",
-      repoLink: "https://github.com/Ayanjyoti2003/FUTURE_FS_02"
+      repoLink: "https://github.com/Ayanjyoti2003/FUTURE_FS_02",
+      image: "/Minishop.png"
     },
     {
       title: "Employee Management System",
@@ -32,13 +33,14 @@ export default function Projects() {
 
       <div className="grid-cols-3">
         {projects.map((project, index) => (
-          <ProjectCard 
+          <ProjectCard
             key={index}
             title={project.title}
             description={project.description}
             technologies={project.technologies}
             liveDemoLink={project.liveDemoLink}
             repoLink={project.repoLink}
+            image={project.image}
           />
         ))}
       </div>

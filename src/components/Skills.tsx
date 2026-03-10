@@ -3,9 +3,10 @@ import SkillBadge from './SkillBadge';
 export default function Skills() {
   const languages = ['JavaScript', 'Python', 'TypeScript', 'HTML', 'CSS'];
   const frontend = ['React.js', 'Next.js', 'React Native (Expo)', 'Tailwind CSS'];
-  const backend = ['Node.js', 'Express.js', 'FastAPI', 'MongoDB', 'MySQL', 'Firebase (Firestore)'];
-  const apisAuth = ['RESTful APIs', 'API Integration', 'Firebase Auth', 'Google Sign-In', 'Authorization'];
+  const backend = ['Node.js', 'Express.js', 'FastAPI'];
+  const databases = ['MongoDB', 'MySQL', 'Firebase (Firestore)'];
   const tools = ['Git', 'GitHub', 'Postman', 'Vercel', 'Render', 'Expo'];
+  const apisAuth = ['REST APIs', 'API Integration', 'Firebase Auth', 'Google Sign-In', 'JWT Authentication'];
 
   return (
     <section id="skills" className="section container">
@@ -21,25 +22,39 @@ export default function Skills() {
             {languages.map(skill => <SkillBadge key={skill} skill={skill} />)}
           </div>
         </div>
-        
+
         <div className="glass-card">
           <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Frontend</h3>
           <div className="flex" style={{ flexWrap: 'wrap', gap: '0.75rem' }}>
             {frontend.map(skill => <SkillBadge key={skill} skill={skill} />)}
           </div>
         </div>
-        
+
         <div className="glass-card">
-          <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Backend & Databases</h3>
+          <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Backend</h3>
           <div className="flex" style={{ flexWrap: 'wrap', gap: '0.75rem' }}>
             {backend.map(skill => <SkillBadge key={skill} skill={skill} />)}
           </div>
         </div>
-        
+
         <div className="glass-card">
-          <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Tools, APIs & Auth</h3>
+          <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Databases</h3>
           <div className="flex" style={{ flexWrap: 'wrap', gap: '0.75rem' }}>
-            {[...apisAuth, ...tools].map(skill => <SkillBadge key={skill} skill={skill} />)}
+            {databases.map(skill => <SkillBadge key={skill} skill={skill} />)}
+          </div>
+        </div>
+
+        <div className="glass-card">
+          <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>Tools & Dev Platforms</h3>
+          <div className="flex" style={{ flexWrap: 'wrap', gap: '0.75rem' }}>
+            {tools.map(skill => <SkillBadge key={skill} skill={skill} />)}
+          </div>
+        </div>
+
+        <div className="glass-card">
+          <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>APIs & Authentication</h3>
+          <div className="flex" style={{ flexWrap: 'wrap', gap: '0.75rem' }}>
+            {apisAuth.map(skill => <SkillBadge key={skill} skill={skill} />)}
           </div>
         </div>
       </div>
