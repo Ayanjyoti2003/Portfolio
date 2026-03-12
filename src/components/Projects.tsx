@@ -7,7 +7,9 @@ export default function Projects() {
       description: "Developed a cross-platform fitness tracking mobile app for logging workouts and monitoring progress. Built an AI chatbot fitness coach for real-time recommendations. Implemented dual data persistence with Firebase Firestore and local storage for offline support.",
       technologies: ["React Native (Expo)", "Firebase", "Google Sign-In", "Google AI APIs"],
       liveDemoLink: "https://expo.dev/accounts/ayanjyoti/projects/gym-tracker",
-      repoLink: "https://github.com/Ayanjyoti2003/Gym-Tracker"
+      repoLink: "https://github.com/Ayanjyoti2003/Gym-Tracker",
+      images: ["/Dashboard.jpeg", "/Exercise Logging.jpeg", "/Analytics.jpeg"],
+      apkLink: "/Gym-Tracker.v.1.0.apk"
     },
     {
       title: "E-Commerce Website",
@@ -41,6 +43,8 @@ export default function Projects() {
             liveDemoLink={project.liveDemoLink}
             repoLink={project.repoLink}
             image={project.image}
+            images={project.images}
+            apkLink={'apkLink' in project ? project.apkLink : undefined}
           />
         ))}
       </div>
