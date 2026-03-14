@@ -9,7 +9,7 @@ export default function Projects() {
       liveDemoLink: "https://expo.dev/accounts/ayanjyoti/projects/gym-tracker",
       repoLink: "https://github.com/Ayanjyoti2003/Gym-Tracker",
       images: ["/Dashboard.jpeg", "/Exercise Logging.jpeg", "/Analytics.jpeg"],
-      apkLink: "/Gym-Tracker.v.1.0.apk"
+      apkLink: "/Gym-Tracker.v.1.0.0.apk"
     },
     {
       title: "E-Commerce Website",
