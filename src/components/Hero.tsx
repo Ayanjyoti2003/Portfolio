@@ -22,7 +22,7 @@ export default function Hero() {
           <Link href="#projects" className="btn btn-primary">
             View My Work
           </Link>
-          <a href="/AYAN_JYOTI_BORA_Latest_March.pdf" download="Ayan_Jyoti_Bora_Resume.pdf" className="btn btn-outline">
+          <a href="/My_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
             Download Resume
           </a>
           <a href="mailto:ayanjyotibora8@gmail.com" className="btn btn-outline" style={{ border: 'none' }}>

@@ -35,6 +35,10 @@ export default function About() {
           <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
             <li style={{ position: 'relative', paddingLeft: '1.5rem', color: 'var(--text-secondary)' }}>
                 <span style={{ position: 'absolute', left: 0, color: 'var(--accent-color)', fontFamily: 'var(--font-mono)' }}>▹</span>
+                Generative AI for Software Developers – Coursera
+            </li>
+            <li style={{ position: 'relative', paddingLeft: '1.5rem', color: 'var(--text-secondary)' }}>
+                <span style={{ position: 'absolute', left: 0, color: 'var(--accent-color)', fontFamily: 'var(--font-mono)' }}>▹</span>
                 Artificial Intelligence Fundamentals – IBM SkillsBuild (2026)
             </li>
             <li style={{ position: 'relative', paddingLeft: '1.5rem', color: 'var(--text-secondary)' }}>

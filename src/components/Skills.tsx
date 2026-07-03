@@ -4,8 +4,8 @@ export default function Skills() {
   const languages = ['JavaScript', 'Python', 'TypeScript', 'HTML', 'CSS'];
   const frontend = ['React.js', 'Next.js', 'React Native (Expo)', 'Tailwind CSS'];
   const backend = ['Node.js', 'Express.js', 'FastAPI'];
-  const databases = ['MongoDB', 'MySQL', 'Firebase (Firestore)'];
-  const tools = ['Git', 'GitHub', 'Postman', 'Vercel', 'Render', 'Expo'];
+  const databases = ['MongoDB', 'MySQL', 'PostgreSQL', 'Firebase (Firestore)', 'Supabase'];
+  const tools = ['Git', 'GitHub', 'Postman', 'Vercel', 'Render', 'Expo', 'Figma'];
   const apisAuth = ['REST APIs', 'API Integration', 'Firebase Auth', 'Google Sign-In', 'JWT Authentication'];
 
   return (

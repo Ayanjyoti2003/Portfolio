@@ -20,10 +20,19 @@ export default function Projects() {
       image: "/Minishop.png"
     },
     {
+      title: "Job Shield - AI Job Analysis & Scam Detection Platform",
+      description: "Developed a full-stack platform for AI-powered resume analysis, job matching, and job scam detection (Final Year Project). Implemented responsive frontend interfaces, user authentication, an analytics dashboard, and community-driven scam reporting workflows, integrating AI services for resume evaluation and job authenticity analysis.",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "AI Services"],
+      repoLink: "https://github.com/Ayanjyoti2003/Job-Shield",
+      image: "/JobShield.png"
+    },
+    /*
+    {
       title: "Employee Management System",
       description: "Developed an AI-powered attendance system using Python, OpenCV, and face recognition for real-time tracking. Implemented REST-based logging and reporting features via HR dashboards within a 24-hour hackathon.",
       technologies: ["Python", "OpenCV", "Face Recognition", "REST API"],
     }
+    */
   ];
 
   return (
